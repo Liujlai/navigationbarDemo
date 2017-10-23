@@ -12,6 +12,9 @@
 		782CCA011F9B36AA00C495DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782CC9FF1F9B36AA00C495DE /* Main.storyboard */; };
 		782CCA031F9B36AA00C495DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 782CCA021F9B36AA00C495DE /* Assets.xcassets */; };
 		782CCA061F9B36AA00C495DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782CCA041F9B36AA00C495DE /* LaunchScreen.storyboard */; };
+		782CCA0E1F9B3CD400C495DE /* SViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782CCA0D1F9B3CD400C495DE /* SViewController.swift */; };
+		782CCA101F9D98D200C495DE /* TViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782CCA0F1F9D98D200C495DE /* TViewController.swift */; };
+		782CCA121F9D98F600C495DE /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782CCA111F9D98F600C495DE /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		782CCA021F9B36AA00C495DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		782CCA051F9B36AA00C495DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		782CCA071F9B36AA00C495DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		782CCA0D1F9B3CD400C495DE /* SViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SViewController.swift; sourceTree = "<group>"; };
+		782CCA0F1F9D98D200C495DE /* TViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TViewController.swift; sourceTree = "<group>"; };
+		782CCA111F9D98F600C495DE /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 			children = (
 				782CC9FB1F9B36AA00C495DE /* AppDelegate.swift */,
 				782CC9FD1F9B36AA00C495DE /* ViewController.swift */,
+				782CCA0D1F9B3CD400C495DE /* SViewController.swift */,
+				782CCA111F9D98F600C495DE /* BaseViewController.swift */,
+				782CCA0F1F9D98D200C495DE /* TViewController.swift */,
 				782CC9FF1F9B36AA00C495DE /* Main.storyboard */,
 				782CCA021F9B36AA00C495DE /* Assets.xcassets */,
 				782CCA041F9B36AA00C495DE /* LaunchScreen.storyboard */,
@@ -136,8 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				782CCA121F9D98F600C495DE /* BaseViewController.swift in Sources */,
 				782CC9FE1F9B36AA00C495DE /* ViewController.swift in Sources */,
+				782CCA0E1F9B3CD400C495DE /* SViewController.swift in Sources */,
 				782CC9FC1F9B36AA00C495DE /* AppDelegate.swift in Sources */,
+				782CCA101F9D98D200C495DE /* TViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +291,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.youlu.navigationbarD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -293,7 +305,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.youlu.navigationbarD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
